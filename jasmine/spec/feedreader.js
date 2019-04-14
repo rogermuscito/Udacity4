@@ -3,7 +3,7 @@
  */
 $(function() {
    // This suite is about the RSS feeds definitions (the allFeeds variable)
-    describe('RSS Feeds', function() {
+    describe('  ', function() {
         // Make sure that the allFeeds variable has been defined and that it is not empty
         it('are defined', function() {
             expect(allFeeds).toBeDefined();
@@ -61,9 +61,7 @@ $(function() {
     describe('Initial Entries', function() {
 
         beforeEach(function(done) {
-            loadFeed(0, function() {
-                done();
-            });
+            loadFeed(0, done);
         });
 
         it('has at least one entry in the feed after loading', function() {
