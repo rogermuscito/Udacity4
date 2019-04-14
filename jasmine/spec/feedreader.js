@@ -3,7 +3,7 @@
  */
 $(function() {
    // This suite is about the RSS feeds definitions (the allFeeds variable)
-    describe('  ', function() {
+    describe('RSS Feeds', function() {
         // Make sure that the allFeeds variable has been defined and that it is not empty
         it('are defined', function() {
             expect(allFeeds).toBeDefined();
